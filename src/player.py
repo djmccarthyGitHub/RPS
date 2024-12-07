@@ -1,10 +1,12 @@
-from src.deck import Deck
+from .deck import Deck
+from .card import Rock, Paper, Scissors
 
 class Player:
     def __init__(self, name):
         self.name = name
         self.deck = Deck()
         self.hand = []
+        self.rps_hand = [Rock(), Paper(), Scissors()]
         self.discard_pile = []
         self.points = 0
         self.message_queue = []

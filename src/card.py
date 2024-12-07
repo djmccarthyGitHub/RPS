@@ -14,9 +14,9 @@ class Rock(Card):
 class Paper(Card):
     def __init__(self):
         self.title = "Paper"
-        self.description = "a thin sheet made usually from rags, wood, straw, or bark"
+        self.description = "A thin sheet made usually from rags, wood, straw, or bark"
 
 class Scissors(Card):
     def __init__(self):
         self.title = "Scissors"
-        self.description = "a cutting device consisting of two blades, each with a ring-shaped handle, which are joined in the middle"
+        self.description = "A cutting device consisting of two blades, each with a ring-shaped handle, which are joined in the middle"
